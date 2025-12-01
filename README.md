@@ -11,7 +11,7 @@ Simple command-line usage
 pip install pillow pycryptodome
 
 
-<h3>Examples</h3>
+<h3>Examples:</h3>
 
 <h4>Embed a message inside an image</h4>
 python steg.py embed cover.png stego.png -m "hidden message"
