@@ -1,4 +1,4 @@
-StegTool — CLI Image Steganography (with AES-GCM Encryption)
+<h2>StegTool — CLI Image Steganography (with AES-GCM Encryption)</h2>
 
 Features:
 LSB image embedding & extraction (PNG recommended)
@@ -13,11 +13,11 @@ pip install pillow pycryptodome
 
 Examples
 
-# Embed a message inside an image
+Embed a message inside an image
 python steg.py embed cover.png stego.png -m "hidden message"
 
-# Embed a file with encryption + compression
+Embed a file with encryption + compression
 python steg.py embed cover.png stego.png --file secret.txt --compress --encrypt "mypassword"
 
-# Extract hidden data
+Extract hidden data
 python steg.py extract stego.png --decrypt "mypassword" --decompress
